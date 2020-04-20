@@ -47,7 +47,7 @@ fun getFileOrFolderSize(dir: File): Long {
     return size
 }
 
-// if option -si is on, then div by 1000, else div by 1024
+
 fun summarise(list: List<Long>): Long {
     var sum: Long = 0
     for (i in 0 until list.size)
